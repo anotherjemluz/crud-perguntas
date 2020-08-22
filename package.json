@@ -1,0 +1,40 @@
+{
+  "name": "perguntas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.18.3",
+    "connect-history-api-fallback": "^1.6.0",
+    "consign": "0.1.6",
+    "cors": "^2.8.5",
+    "express": "4.16.4",
+    "express-favicon": "^2.0.1",
+    "jwt-simple": "0.5.5",
+    "knex": "^0.21.2",
+    "knex-logger": "^0.1.0",
+    "mysql": "2.17.1",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "5.10.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "23.6.0",
+    "supertest": "3.3.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix",
+    "start": "node app.js",
+    "safe": "jest --watch --verbose=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
